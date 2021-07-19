@@ -676,3 +676,38 @@ a.dotted-link:hover {
 .hidden {
   display: none;
 }
+
+.skill-badge-theme {
+  background: #66cb8c;
+  /* background: #3AAA64; */
+  /* background: #b0b7bf; */
+  font-size: 12px;
+  color: #fff;
+  padding: 5px 8px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.latest .item .date-p {
+  font-size: 16px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+}
+
+.latest .item .date-p .date-label {
+  color: #ccd1d6;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+

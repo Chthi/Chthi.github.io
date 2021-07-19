@@ -1,12 +1,15 @@
 $(window).on('load', function() {
+    /* Set skillset bar to 0 before animation */
+    $('.level-bar-inner').css('width', '0');
 
+    /* Animate skillset bar to right level */
     $('.level-bar-inner').each(function() {
     
         var itemWidth = $(this).data('level');
         
         $(this).animate({
             width: itemWidth
-        }, 800);
+        }, 1200);
         
     });
 
@@ -18,16 +21,20 @@ jQuery(document).ready(function($) {
 
     /*======= Skillset *=======*/
     
-    $('.level-bar-inner').css('width', '0');
+    // $('.level-bar-inner').css('width', '0');
     
     
     
     /* Bootstrap Tooltip for Skillset */
     $('.level-label').tooltip();
+
+    /* Bootstrap Tooltip for Date */
+    $('.date-label').tooltip();
     
     
     /* jQuery RSS - https://github.com/sdepold/jquery-rss */
     
+    /*
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
@@ -61,13 +68,14 @@ jQuery(document).ready(function($) {
         
         }
     );
+    */
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "IonicaBizau", { responsive: true });
+    // new GitHubCalendar("#github-graph", "IonicaBizau", { responsive: true });
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "mdo", selector: "#ghfeed" });
+    // GitHubActivity.feed({ username: "mdo", selector: "#ghfeed" });
 
 
 });
