@@ -63,8 +63,8 @@ a:focus {
 }
 
 a.btn-cta-primary, .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #66cb8c; /* #54ba4e */
+  border: 1px solid #66cb8c; /* #54ba4e */
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -73,6 +73,7 @@ a.btn-cta-primary, .btn-cta-primary {
 a.btn-cta-primary:hover, .btn-cta-primary:hover {
   background: #49ac43;
   border: 1px solid #49ac43;
+  
   color: #fff;
 }
 
@@ -431,7 +432,7 @@ a.dotted-link:hover {
   font-size: 16px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 
 .skills .skillset .level-title .level-label {
@@ -698,7 +699,7 @@ a.dotted-link:hover {
   font-size: 16px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 
 .latest .item .date-p .date-label {
